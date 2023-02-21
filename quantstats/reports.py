@@ -34,9 +34,10 @@ from . import (
 from dateutil.relativedelta import relativedelta
 
 try:
-    from IPython.core.display import (
+    from IPython.display import (
         display as iDisplay, HTML as iHTML
     )
+
 except ImportError:
     pass
 
